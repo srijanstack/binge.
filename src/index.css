@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+body,html{
+    background-color: rgb(20, 20, 20);
+    margin:0;
+    height:100%;
+    width: 100%;
+    color: white;
+    font-family: 'Inter',sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+option{
+  color:white;
+  background: hsl(0, 0%, 0%);
+  font-weight: 400;
+  font-size: 0.7em;
+  opacity: 25;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+body {
+  overflow-x: hidden;
+}
